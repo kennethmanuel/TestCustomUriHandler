@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\customedgeopen]
+"URL Protocol"=""
+@="URL:Open with Edge"
+
+[HKEY_CLASSES_ROOT\customedgeopen\shell]
+
+[HKEY_CLASSES_ROOT\customedgeopen\shell\open]
+
+[HKEY_CLASSES_ROOT\customedgeopen\shell\open\command]
+@="\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" \"%1\""
